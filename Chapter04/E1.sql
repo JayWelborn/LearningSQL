@@ -3,4 +3,4 @@ FROM transaction
 WHERE
   txn_date < '2005-02-26' AND (txn_type_cd = 'DBT' OR amount > 100);
 
-# returns rows 1, 2, 3, 5, 6, 7
+# returns rows 1, 2, 3, 5, 6, 7 from sample table
